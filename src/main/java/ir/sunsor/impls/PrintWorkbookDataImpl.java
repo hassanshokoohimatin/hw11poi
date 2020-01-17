@@ -22,7 +22,7 @@ public class PrintWorkbookDataImpl implements PrintWorkbookData{
             while (cellIterator.hasNext()){
                 Cell cell = cellIterator.next();
                 if (cell != null){
-                    System.out.printf("%s\t\t\t\t",cell.getStringCellValue());
+                    System.out.printf("%s\t\t\t\t\t",cell.getStringCellValue());
                 }
             }
             System.out.println();
